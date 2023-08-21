@@ -5,4 +5,4 @@ Features of client.py:
     Unique Key Generation: Every time the client connects, a unique key is generated, ensuring security and individuality of each session.
     Private Key Detection: If a private key is found during the script's operation, it gets saved locally in the location where the client script is initiated.
 
-client.py is a Python script designed to send data from clients to a server. It utilizes libraries such as os, socket, psutil, and others. The script has a defined client version and contains a function to read and process output from a process, particularly looking for specific keywords. The found keywords are then transmitted to a server.
+client.py is a Python script designed to send data from clients to a server. It utilizes libraries such as os, socket, psutil, and others. The script has a defined client version and contains a function to read and process output from a process.
